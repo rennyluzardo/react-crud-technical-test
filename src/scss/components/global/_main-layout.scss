@@ -1,0 +1,20 @@
+.toolbar {
+  justify-content: end;
+}
+
+.header {
+  &__left {
+    align-self: center;
+  }
+
+  &__mid {
+    text-align: center;
+    align-self: center;
+  }
+
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
